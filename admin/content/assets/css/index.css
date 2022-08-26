@@ -1,0 +1,812 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-text-color: #016afb;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+#main-wrapper {
+  height: 100vh;
+}
+
+#menu-wrapper {
+  background-color: var(--main-text-color);
+  display: flex;
+  flex-direction: column;
+  padding: 1.3em 0em 0em 3.6em;
+}
+#menu-wrapper .head {
+  pointer-events: none;
+  display: flex;
+  margin-bottom: 2em;
+}
+#menu-wrapper .head .img {
+  width: 30px;
+  height: 30px;
+}
+#menu-wrapper .head .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#menu-wrapper .head .text {
+  font-size: 23px;
+  color: white;
+  margin-left: 20px;
+  font-family: "Lobster", cursive;
+}
+#menu-wrapper .section {
+  list-style: none;
+}
+#menu-wrapper .section li {
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin: 8px 0px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+#menu-wrapper .section li i {
+  font-size: 18px;
+}
+#menu-wrapper .section li.active {
+  background: white;
+  border-radius: 30px 0px 0px 30px;
+  color: var(--main-text-color);
+}
+#menu-wrapper .section li:hover {
+  background: white;
+  border-radius: 30px 0px 0px 30px;
+  color: var(--main-text-color);
+}
+
+#content-wrapper {
+  background: #f1f4fb;
+  padding: 0;
+}
+#content-wrapper #nav {
+  min-height: 8vh;
+  max-height: 8vh;
+  background: white;
+  padding: 0px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 3px 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+#content-wrapper #nav .title {
+  pointer-events: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+#content-wrapper #nav .admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#content-wrapper #nav .admin .right .img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+#content-wrapper #nav .admin .right .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#content-wrapper #nav .admin .left .name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--main-text-color);
+}
+#content-wrapper #nav .admin .left .id {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+#content-wrapper #settings .modal-header span {
+  font-weight: 600;
+  font-size: 20px;
+}
+#content-wrapper #settings .modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#content-wrapper #settings .modal-body div {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#content-wrapper #settings .modal-body .signout {
+  color: rgb(230, 15, 15);
+}
+#content-wrapper #settings .modal-body div:active {
+  color: var(--main-text-color);
+}
+#content-wrapper #password .modal-header .fa-chevron-left {
+  color: var(--main-text-color);
+}
+#content-wrapper #password .modal-header span {
+  font-weight: 600;
+  font-size: 20px;
+}
+#content-wrapper #password .modal-body input {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper #password .modal-body .show span {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+#content-wrapper #password .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper #backup .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#content-wrapper #backup .head .fa-chevron-left {
+  color: var(--main-text-color);
+}
+#content-wrapper #backup .head span {
+  font-weight: 600;
+  font-size: 20px;
+}
+#content-wrapper #backup .head form button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page1 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page1 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page1 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page1 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page1 .wrapper .top .addWrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add,
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add1 {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add i,
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add1 i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add i:active,
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add1 i:active {
+  color: grey;
+}
+#content-wrapper .pages #page1 .wrapper .top .addWrap .add {
+  background: rgb(55, 161, 202);
+}
+#content-wrapper .pages #page1 .wrapper #addSlider .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page1 .wrapper #displaySlider .carousel-inner {
+  display: flex;
+  justify-content: center;
+}
+#content-wrapper .pages #page1 .wrapper #displaySlider .carousel-item {
+  width: 400px;
+  height: 350px;
+}
+#content-wrapper .pages #page1 .wrapper #displaySlider .carousel-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#content-wrapper .pages #page1 .wrapper #displaySlider .carousel-control-prev,
+#content-wrapper .pages #page1 .wrapper #displaySlider .carousel-control-next {
+  background: rgba(0, 0, 0, 0.308);
+}
+#content-wrapper .pages #page2 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page2 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page2 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page2 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page2 .wrapper .top .add button {
+  background: none;
+  outline: none;
+  border: none;
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page2 .wrapper .top .add button i {
+  font-size: 18px;
+  color: white;
+  padding: 7px 7px;
+}
+#content-wrapper .pages #page2 .wrapper .top .add button i:active {
+  color: grey;
+}
+#content-wrapper .pages #page2 .wrapper #addSlider .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page3 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page3 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page3 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page3 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page3 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page3 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page3 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page3 .wrapper #addnotice .modal-body input.notice {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page3 .wrapper #addnotice .modal-body textarea {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page3 .wrapper #addnotice .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page3 .wrapper .editnotice input.notice,
+#content-wrapper .pages #page3 .wrapper .editnotice textarea.notice {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page3 .wrapper .editnotice button.notice {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page4 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page4 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page4 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page4 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page4 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page4 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page4 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page4 .wrapper #addgallery .modal-body input.gallery {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page4 .wrapper #addgallery .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page4 .wrapper .editgallery input.gallery {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page4 .wrapper .editgallery button.gallery {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page5 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page5 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page5 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page5 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page5 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page5 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page5 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page5 .wrapper #addtestimonials .modal-body input[type=text],
+#content-wrapper .pages #page5 .wrapper #addtestimonials .modal-body textarea {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page5 .wrapper #addtestimonials .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page5 .wrapper .edittestimonial input.testimonial,
+#content-wrapper .pages #page5 .wrapper .edittestimonial textarea.testimonial {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page5 .wrapper .edittestimonial button.testimonial {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page6 .container #bsc {
+  margin-left: 30px !important;
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+}
+#content-wrapper .pages #page6 .container #bsc .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 15px;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.158);
+}
+#content-wrapper .pages #page6 .container #bsc .header .title span {
+  font-weight: 600;
+  font-size: 18px;
+}
+#content-wrapper .pages #page6 .container #bsc .body .location {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #bsc .body .location .wrap {
+  border: 0.2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background: var(--main-text-color);
+}
+#content-wrapper .pages #page6 .container #bsc .body .location .wrap .right {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#content-wrapper .pages #page6 .container #bsc .body .location .wrap .left {
+  width: 87%;
+  background: white;
+}
+#content-wrapper .pages #page6 .container #bsc .body .location .wrap .left input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+}
+#content-wrapper .pages #page6 .container #bsc .body .number {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #bsc .body .number .wrap {
+  border: 0.2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background: var(--main-text-color);
+}
+#content-wrapper .pages #page6 .container #bsc .body .number .wrap .right {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#content-wrapper .pages #page6 .container #bsc .body .number .wrap .left {
+  width: 87%;
+  background: white;
+}
+#content-wrapper .pages #page6 .container #bsc .body .number .wrap .left input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+}
+#content-wrapper .pages #page6 .container #bsc .body .button {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #bsc .body .button button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page6 .container #bbs {
+  margin-right: 30px !important;
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+}
+#content-wrapper .pages #page6 .container #bbs .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 15px;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.158);
+}
+#content-wrapper .pages #page6 .container #bbs .header .title span {
+  font-weight: 600;
+  font-size: 18px;
+}
+#content-wrapper .pages #page6 .container #bbs .body .location {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #bbs .body .location .wrap {
+  border: 0.2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background: var(--main-text-color);
+}
+#content-wrapper .pages #page6 .container #bbs .body .location .wrap .right {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#content-wrapper .pages #page6 .container #bbs .body .location .wrap .left {
+  width: 87%;
+  background: white;
+}
+#content-wrapper .pages #page6 .container #bbs .body .location .wrap .left input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+}
+#content-wrapper .pages #page6 .container #bbs .body .number {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #bbs .body .number .wrap {
+  border: 0.2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background: var(--main-text-color);
+}
+#content-wrapper .pages #page6 .container #bbs .body .number .wrap .right {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#content-wrapper .pages #page6 .container #bbs .body .number .wrap .left {
+  width: 87%;
+  background: white;
+}
+#content-wrapper .pages #page6 .container #bbs .body .number .wrap .left input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+}
+#content-wrapper .pages #page6 .container #bbs .body .button {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #bbs .body .button button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page6 .container #admission {
+  margin-left: 30px !important;
+  background: white;
+  padding: 0;
+  border-radius: 10px;
+}
+#content-wrapper .pages #page6 .container #admission .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 15px;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.158);
+}
+#content-wrapper .pages #page6 .container #admission .header .title span {
+  font-weight: 600;
+  font-size: 18px;
+}
+#content-wrapper .pages #page6 .container #admission .header .add i {
+  color: var(--main-text-color);
+  font-size: 30px;
+  cursor: pointer;
+}
+#content-wrapper .pages #page6 .container #admission .header .add i:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+#content-wrapper .pages #page6 .container #admission .body .img {
+  height: 200px;
+  padding: 0 10px !important;
+}
+#content-wrapper .pages #page6 .container #admission .body .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page6 .container #admission .body .button {
+  margin: 10px 20px;
+}
+#content-wrapper .pages #page6 .container #admission .body .button button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page7 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page7 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page7 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page7 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page7 .wrapper .top .add {
+  cursor: pointer;
+}
+#content-wrapper .pages #page7 .wrapper .top .add i {
+  font-size: 18px;
+  color: var(--main-text-color);
+}
+#content-wrapper .pages #page7 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page7 .wrapper #addSlider .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page8 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page8 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page8 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page8 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page8 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page8 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page8 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page8 .wrapper #addcouncil .modal-body input.council {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page8 .wrapper #addcouncil .modal-body textarea {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page8 .wrapper #addcouncil .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page8 .wrapper .editcouncil input.council,
+#content-wrapper .pages #page8 .wrapper .editcouncil textarea.council {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page8 .wrapper .editcouncil button.council {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page9 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page9 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page9 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page9 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page9 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page9 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page9 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page9 .wrapper #addevent .modal-body input.event {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page9 .wrapper #addevent .modal-body textarea {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page9 .wrapper #addevent .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page9 .wrapper .editevent input.event,
+#content-wrapper .pages #page9 .wrapper .editevent textarea.event {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page9 .wrapper .editevent button.event {
+  background: var(--main-text-color);
+  color: white;
+}/*# sourceMappingURL=index.css.map */

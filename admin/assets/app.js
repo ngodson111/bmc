@@ -31,6 +31,6 @@ function handelBack() {
   loginbtnbutton.style.display = "none";
 }
 
-$(window).on("load", function () {
-  $("#intro").modal("show");
-});
+// $(window).on("load", function () {
+//   $("#intro").modal("show");
+// });

@@ -78,7 +78,7 @@
 										<li><a href="index.php">Home</a></li>                                                         
 										<li class="active"><a href="courses.php">Courses</a></li>
 										<li><a href="event.php">Event</a></li>
-										<li><a href="notice.php">News</a></li>
+										<li><a href="notice.php">Notice</a></li>
 										<li><a href="gallery.php">Gallery</a></li>
 										<!-- <li><a href="council.php">Council</a></li> -->
 										<li><a href="about.php">About</a></li>

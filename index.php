@@ -52,8 +52,8 @@
 						<div class="col-auto">
 							<div class="header-left-wrapper">
 								<ul class="header-top-text d-flex flex-column flex-md-row justify-content-center">
-									<li>E-mail Address : tutoring@mail.com</li>
-									<li>Contact Number : +003457289</li>
+									<li>E-mail Address :  bumocol@gmail.com</li>
+									<li>Contact Number : 017-429193,429192</li>
 								</ul>
 							</div>
 						</div>
@@ -80,10 +80,22 @@
 							<div class="main-menu text-center">
 								<nav>
 									<ul>
-										<li class="active"><a href="index.php">Home</a></li>                                                         
-										<li><a href="courses.php">Courses</a></li>
+										<li class="active"><a href="index.php">Home</a>
+									</li>                                                         
+										<li><a href="courses.php">Courses</a>
+										<ul class="sub-menu text-left">
+												<li><a href="bbm.php">BBA</a></li>
+												<li><a href="bhm.php">BHM</a></li>
+												<li><a href="mpgd.php">MPGD</a></li>
+											</ul></li>
 										<li><a href="event.php">Event</a></li>
-										<li><a href="notice.php">Notice</a></li>
+										<li><a href="notice.php">News & Notices</a>
+										<ul class="sub-menu text-left">
+										<li><a href="#">News</a></li>
+												<li><a href="#">Notices</a></li>
+												
+												
+											</ul></li>
 										<li><a href="gallery.php">Gallery</a></li>
 										<!-- <li><a href="council.php">Council</a></li> -->
 										<li><a href="about.php">About</a></li>
@@ -113,9 +125,10 @@
 										<div class="row">
 											<div class="col-lg-8 col-12">
 												<div class="slider-text slider-text-animation">
-													<h1>Bone Of Nation Education</h1>
+													<h1>A unique college  for Business Administration and Hotel Management Study.</h1>
 													<div class="slider-info">
-														<p>Lorem ipsum consecteadipisicing elit, Im sed do eiusmo magna aliqua. siconsectetur adipisicing elit, seUt enim ad minim.</p>
+														<p>
+                            Butwal Model College, a co-educational institution, is an educational network of New Horizon College & Kathmandu Model College affiliated to Pokhara University. It has been conducting MPGD (Masters…                        </p>
 													</div>
 													<a href="courses.php" class="button">Start A Course</a>
 												</div>	
@@ -163,9 +176,10 @@
 										</li>
 										<li class="nav-item">
 											<button class="nav-link" data-bs-target="#messages" data-bs-toggle="tab">
-												<h4>vision</h4>
+												<h4>Messgae From Principal</h4>
 											</button>
 										</li>
+										
 									</ul>
 									</div>					
 									<!-- Tab panes -->
@@ -173,8 +187,8 @@
 										<div role="tabpanel" class="tab-pane active" id="home">
 											<div class="campus-wrapper">
 												<div class="campus-content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipising elit, naised do eiusmod tempor incididunba t ut laboraliqua. </p>
-													<p>Lorem ipsum dolor sit amet, consectetur adipising elit, naised do eiusmod tempor incididuLorem ipsum dolor siconsectetur adipisicing elit, sed do eiusmod tempor idunt ut labore et dolore magna aliqua. Ut enim ad minim.  </p>
+													<p>Butwal Model College, a co-educationalinstitution, is an educational network ofNew Horizon College & KathmanduModel College affiliated to PokharaUniversity. It has been conducting MPGD(Masters in population, Gender andDevelopment) program since 2009, & BBA(Bachelor in Business Administration)program has been running forseven years.From academic session 2074, BMC has alsoextended BHM (Bachelor in HotelManagement) program to address thegrowing need of competent professionalsin hospitality management.  </p>
+													<p>BMC providespractical education in innovative &creative way. It is imparting qualityeducation under the management ofnational level leading institutions: NewHorizon College & Kathmandu ModelCollege. BMC is distinct in developingbusiness & hospitality management skillsto meet national need & global demand.</p>
 													<a href="about.php">read more</a>
 												</div>
 											</div>
@@ -182,8 +196,8 @@
 										<div role="tabpanel" class="tab-pane" id="profile">
 											<div class="campus-wrapper">
 												<div class="campus-content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipising elit, naised do eiusmod tempor incididunba t ut laboraliqua. </p>
-													<p>Lorem ipsum dolor sit amet, consectetur adipising elit, naised do eiusmod tempor incididuLorem siconsectetur adipisicing elit, sed do eiusmod tempor idunt ut labore et dolore magna aliqua. Ut enim ad minim.  </p>
+													<p>To develop and train the young talents in Nepal by inculcating a high mixture of knowledge advanced academic skills and practical orientation for directing them towards success.</p>
+													<!-- <p>Lorem ipsum dolor sit amet, consectetur adipising elit, naised do eiusmod tempor incididuLorem siconsectetur adipisicing elit, sed do eiusmod tempor idunt ut labore et dolore magna aliqua. Ut enim ad minim.  </p> -->
 													<a href="about.php">read more</a>
 												</div>
 											</div>
@@ -191,8 +205,14 @@
 										<div role="tabpanel" class="tab-pane" id="messages">
 											<div class="campus-wrapper">
 												<div class="campus-content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipising elit, naised do eiusmod tempor incididunba t ut laboraliqua. </p>
-													<p>Lorem ipsum dolor sit amet, consectetur adipising elit, eiusmod tempor incididuLorem ipsum dolor siconsectetur adipisicing elit, sed do eiusmod tempor idunt ut labore et dolore magna aliqua. Ut enim ad minim.  </p>
+													<p>The college is deeply dedicated and committed to develop competence, conscience, compassion and commitment in the personal qualities of the students. It always promotes academically solid, socially relevant and value oriented education in the country.</p>
+													<p>Honesty in work. </p>
+													<p>Sincerity in relationships. </p>
+													<p>Respect for self and others. </p>
+													<p>Responsibility for one’s actions.</p>
+													<p>Reflecting on and learning from our experience.</p>
+													<p>Care for resources. </p>
+													<p>Respect for laws and regulations.</p>
 													<a href="#">read more</a>
 												</div>
 											</div>
@@ -211,7 +231,7 @@
 			<div class="container">
 				<div class="section-title mb-45">
 					<h4>our courses</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+					<p>Graduate programs at BMC provide students with the opportunity to enhance their professionalism by enlisting a sense of strategic outlook to management problems in students.</p>
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-md-6 col-12">
@@ -222,9 +242,10 @@
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="BBM.php">Bachelor in Business Manangement</a></h4>
-								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
+								<h4><a href="BBM.php">Bachelor in Business Manangement (BBS)</a></h4>
+								<p>The BBA is a four-year undergraduate program delivered by Butwal Model College</p>
 								<a href="BBM.php">apply now</a>
+								<a href="BBM.php">learn more</a>
 							</div>
 						</div>
 					</div>
@@ -236,9 +257,10 @@
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="BBM.php">Bachelor in Business Manangement</a></h4>
-								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
+								<h4><a href="BBM.php">Bachelor in Hotel Manangement (BHM)</a></h4>
+								<p>The BHM is a four-year undergraduate program delivered by Butwal Model College</p>
 								<a href="BBM.php">apply now</a>
+								<a href="BBM.php">learn more</a>
 							</div>
 						</div>
 					</div>
@@ -246,13 +268,14 @@
 						<div class="courses-wrapper mb-30">
 							<div class="courses-img">
 								<a href="BBM.php"><img src="assets/img/courses/1.jpg" alt="" />
-									<span>Management</span>
+									<span>Master</span>
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="BBM.php">Bachelor in Business Manangement</a></h4>
+								<h4><a href="BBM.php">Master in Population Gender and Development (MPGD)</a></h4>
 								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
 								<a href="BBM.php">apply now</a>
+								<a href="BBM.php">learn more</a>
 							</div>
 						</div>
 					</div>
@@ -268,7 +291,7 @@
 						<div class="choose-wrapper blue-bg">
 							<div class="section-title mb-40 white-text">
 								<h4>why choose us</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+								<p>"EDUCATION FOR QUALITY LIFE"</p>
 							</div>
 							<div class="row custom-row">
 								<div class="col-md-6 choose-space">
@@ -278,7 +301,7 @@
 										</div>
 										<div class="choose-categories-content">
 											<h5>Technology</h5>
-											<p>Lorem ipsum dolor sit amet, conadipng elit, sed do eiusmod tempor incidilabore</p>
+											<p> Project works, field visit for effective teaching learning.  </p>
 										</div>
 									</div>
 								</div>
@@ -288,8 +311,8 @@
 											<img src="assets/img/categories/6.png" alt="">
 										</div>
 										<div class="choose-categories-content">
-											<h5>design</h5>
-											<p>Lorem ipsum dolor sit amet, conadipng elit, sed do eiusmod tempor incidilabore</p>
+											<h5>Quality Teachers</h5>
+											<p>Well experienced energetic teaching faculty.</p>
 										</div>
 									</div>
 								</div>
@@ -299,8 +322,8 @@
 											<img src="assets/img/categories/7.png" alt="">
 										</div>
 										<div class="choose-categories-content">
-											<h5>music</h5>
-											<p>Lorem ipsum dolor sit amet, conadipng elit, sed do eiusmod tempor incidilabore</p>
+											<h5>Best Curriculam</h5>
+											<p>Affordable fee structure & We provide best curricular</p>
 										</div>
 									</div>
 								</div>
@@ -310,8 +333,8 @@
 											<img src="assets/img/categories/8.png" alt="">
 										</div>
 										<div class="choose-categories-content">
-											<h5>languagfe</h5>
-											<p>Lorem ipsum dolor sit amet, conadipng elit, sed do eiusmod tempor incidilabore</p>
+											<h5>Global Recognition</h5>
+											<p>our degree is globally recognized</p>
 										</div>
 									</div>
 								</div>
@@ -421,14 +444,14 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-12">
 								<div class="footer-wrapper mb-30">
-									<h2 class="footer-title">About Poralikha</h2>
+									<h2 class="footer-title">About Butwal Model College(BMC)</h2>
 									<div class="footer-content">
-										<p>Lorem ipsum dolor sit cnr adipisicing elit, sed do eiusmod tempor incididuntlabore et dolore magna aliqua. </p>
+										<p>Butwal Model College, a co-educationalinstitution, is an educational network ofNew Horizon College & KathmanduModel College affiliated to PokharaUniversity.  </p>
 									</div>
 									<ul class="footer-link">
-										<li><i class="zmdi zmdi-pin"></i>California Street san Francisco, CA</li>
-										<li><i class="fa fa-phone"></i>Phone : +660 256 24857 </li>
-										<li><i class="fa fa-envelope"></i>Email : username@email.com,</li>
+										<li><i class="zmdi zmdi-pin"></i>Omstiyaa Rural Municipality-1,Rupandehi</li>
+										<li><i class="fa fa-phone"></i>Phone : 017-429193,429192 </li>
+										<li><i class="fa fa-envelope"></i>Email : bumocol@gmail.com</li>
 									</ul>
 								</div>
 							</div>
@@ -448,10 +471,10 @@
 								<div class="footer-wrapper mb-30">
 									<h2 class="footer-title">Courses</h2>
 									<ul class="footer-menu">
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
+										<li><a href="BBM.php">Bachelor in Business Administration</a></li>
+										<li><a href="bhm.php">Bachelor in Hotel Manangement</a></li>
+										<li><a href="mpgd.php">Master in Population ,Gender and Development</a></li>
+										
 									</ul>
 								</div>
 							</div>
@@ -476,7 +499,7 @@
 					<div class="row">
 						<div class="col-md-6 col-12">
 							<div class="copyright">
-								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">NGodSon</a></p>
+								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">Bee Advertisment</a></p>
 							</div>
 						</div>
 					</div>

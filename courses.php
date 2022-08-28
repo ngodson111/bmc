@@ -99,8 +99,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="page-title-text">
-							<h2>Course</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							<h2>BACHELORS DEGREE PROGRAMS</h2>
+							<p>Undergraduate programs at BMC are designed to produce professional managers and entrepreneurs by providing students with sound conceptual foundation and practical skills in various areas of business.</p>
+						
 						</div>
 					</div>
 				</div>
@@ -119,15 +120,44 @@
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="courses-details.php">Bachelor in Business Management</a></h4>
-								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
+								<h4><a href="courses-details.php">Bachelor in Business Management (BBM)</a></h4>
+								<p>The BBA is a four-year undergraduate program delivered by Butwal Model College.As a student of Business Management, one will master key business functions such as strategy, leadership, managing people and operations, entrepreneurship, innovation and technology management. </p>
 								<a href="BBM.php">apply now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="courses-wrapper mb-80">
+							<div class="courses-img">
+								<a href="courses-details.html"><img src="assets/img/courses/2.jpg" alt="" />
+									<span>Management</span>
+								</a>
+							</div>
+							<div class="courses-content">
+								<h4><a href="courses-details.html">Bachelor in Hotel Manangement (BHM)</a></h4>
+								<p>In the context of Nepal, if you want to pursue your career in hotel management or hospitality development. BHM or Business in Hotel Management is a very prestigious undergraduate course having a duration of 4 years with 8 semesters </p>
+								<a href="courses-details.html">apply now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="courses-wrapper mb-80">
+							<div class="courses-img">
+								<a href="courses-details.html"><img src="assets/img/courses/2.jpg" alt="" />
+									<span>Master</span>
+								</a>
+							</div>
+							<div class="courses-content">
+								<h4><a href="courses-details.html">Master in Population Gender and Development (MPGD)s</a></h4>
+								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
+								<a href="courses-details.html">apply now</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		<!-- courses-area-end -->
 		<footer>
 			<!-- footer-top-area-start -->

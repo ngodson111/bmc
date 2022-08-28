@@ -99,7 +99,7 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="page-title-text">
-							<h2>Bachelor of Business Administration (BBA)</h2>
+							<h2>Bachelor of Hotel Management (BHM)</h2>
 						</div>
 					</div>
 				</div>
@@ -120,13 +120,13 @@
 								<div class="details-course">
 									<h5>Management</h5>
 								</div>
-								<h3>Bachelor in Business Administration</h3>
+								<h3>Bachelor in Hotel Manangement</h3>
 							</div>
 							<div class="course-description-content">
 								<h4>Course Description :</h4>
-								<p>The BBA is a four-year undergraduate program delivered by Butwal Model College and the degree is awarded by Pokhara University. The program is fully recognized by the Ministry of Education, Government of Nepal.</p><br>
-								<p>BBA at Butwal Model College is designed to address the need of the students to learn about themselves as well as the professional world that surrounds them. The young minds are curious to learn new things and to explore new ideas. BBA program facilitates this inquisitive journey and ultimately brings out their truest potential to the forefront.</p><br>
-								<p>As a student of Business Management, one will master key business functions such as strategy, leadership, managing people and operations, entrepreneurship, innovation and technology management. The teaching students receive is informed by the latest research methods. The communication, teamwork, problem-solving and leadership skills are what set our graduates apart from others in their chosen field.</p>
+								<p>TIn the context of Nepal, if you want to pursue your career in hotel management or hospitality development. BHM or Business in Hotel Management is a very prestigious undergraduate course having a duration of 4 years with 8 semesters with a minimum fee structure.</p><br>
+								<p>BHM can be one of the best courses you can seek forward for. It provides not only theoretical knowledge to the student but forms practical reliability with skilled-filled to meet the needs of people looking for employment in management positions in the Hotel industry.</p><br>
+								<p>This course covers the fundamentals of Hotel engineering, the Principal of Food and Beverages production, Hospitality, Office operation, and Housekeeping administration along with acquainting the student with the multidimensional Hotels and hospitality industry.</p>
 							</div>
 							<div class="Courses-Features">
 								<ul class="Courses-Features-menu">
@@ -160,7 +160,7 @@
 								</div>
 							</div><br><br><br>
 							<h4>Admission Procedure</h4>
-							<p>Entry requirement for a new student in BBA  program will be 10+2 orequivalent from any discipline. An entrance examination will be helId for allapplicants to be selected for admission. A notice applications for admission ispublicly announced. Applications are scrutinized and the eligible candidatehas to attend entrance examination on the designated date and venue. Awritten examination followed by an interview will be arranged for selection ofstudents.A combined score of entrance examination, interview and academicrecords will be derived for result and merit list of admission.</p>
+							<p>Entry requirement for a new student in  BHM program will be 10+2 orequivalent from any discipline. An entrance examination will be helId for allapplicants to be selected for admission. A notice applications for admission ispublicly announced. Applications are scrutinized and the eligible candidatehas to attend entrance examination on the designated date and venue. Awritten examination followed by an interview will be arranged for selection ofstudents.A combined score of entrance examination, interview and academicrecords will be derived for result and merit list of admission.</p>
 							<div class="frequently-asked-area pt-130">
 			<div class="container frequently">
 				<div class="row g-0 align-items-stretch">

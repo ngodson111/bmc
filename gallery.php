@@ -98,7 +98,7 @@
 			<!-- main-menu-area-end -->
 		</header>
 		<!-- page-title-area-start -->
-		<div class="page-title-area ptb-170 bg-opacity-6" style="background-image:url(assets/img/bg/11.jpg)">
+		<!-- <div class="page-title-area ptb-170 bg-opacity-6" style="background-image:url(assets/img/bg/11.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- page-title-area-end -->
 		<!-- gallery-area-start -->
 		<div class="gallery-area pt-130 pb-125">

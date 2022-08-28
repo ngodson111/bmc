@@ -98,7 +98,7 @@
 			<!-- main-menu-area-end -->
 		</header>
 		<!-- page-title-area-start -->
-		<div class="page-title-area ptb-110 bg-opacity-6" style="background-image:url(assets/img/bg/6.jpg)">
+		<!-- <div class="page-title-area ptb-110 bg-opacity-6" style="background-image:url(assets/img/bg/6.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- page-title-area-end -->
 		<!-- about-tutoring-area-start -->
 		<div class="about-tutoring-area ptb-130" style="background-image:url(assets/img/bg/7.jpg)">
@@ -123,9 +123,14 @@
 					<div class="col-lg-6">
 						<div class="about-tutoring-wrapper">
 							<div class="about-tutoring-content">
-								<h4>about tutoring</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ipor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cnonsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
+								<h4>Welcome to Butwal Model College</h4>
+								<p>Butwal Model College, a co-educationalinstitution, is an educational network ofNew Horizon College & KathmanduModel College affiliated to PokharaUniversity. It has been conducting MPGD(Masters in population, Gender andDevelopment) program since 2009, & BBA(Bachelor in Business Administration)program has been running forseven years.From academic session 2074, BMC has alsoextended BHM (Bachelor in HotelManagement) program to address thegrowing need of competent professionalsin hospitality management. BMC providespractical education in innovative &creative way. It is imparting qualityeducation under the management ofnational level leading institutions: NewHorizon College & Kathmandu ModelCollege. BMC is distinct in developingbusiness & hospitality management skillsto meet national need & global demand. </p>
+								<p>Currently, BMC operates with following institutions under its umbrella:</p>
+								<ul>
+  									<li>New Horizon College</li>
+ 								    <li>KSHITIZ INTERNATIONAL COLLEGE</li>
+ 								    <li>New Horizon English secondary School</li>
+								</ul> 
 							</div>
 						</div>
 					</div>
@@ -151,59 +156,103 @@
 		<!-- video-area-end -->
 		<!-- frequently-asked-area-start -->
 		<div class="frequently-asked-area pt-130">
-			<div class="container frequently">
+			<div class="container frequently">`
 				<div class="row g-0 align-items-stretch">
 					<div class="col-lg-6">
 						<div class="frequently-asked-wrapper gray-bg-1">
-							<h3 class="frequently-title">Frequantly asked quastions</h3>
+							<h3 class="frequently-title">Why Butwal Model College ?</h3>
 							<div class="accordion" id="faq-accordian">
-								<div class="accordion-item">
+							<div class="accordion-item">
 								  <h2 class="accordion-header">
-									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
+										A leading college with high ranking result in BBA/BHM Programs.
 									</button>
 								  </h2>
-								  <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
+								  <!-- <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
 									<div class="accordion-body">
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
 									</div>
-								  </div>
+								  </div> -->
 								</div>
 								<div class="accordion-item">
 								  <h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+										Healthy academic atmosphere and high degree of discipline
 									</button>
 								  </h2>
-								  <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+								  <!-- <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 									<div class="accordion-body">
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
 									</div>
-								  </div>
-								</div>
+								  </div>-->
+								</div> 
 								<div class="accordion-item">
 								  <h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+										Qualified and trained faculties
 									</button>
 								  </h2>
-								  <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+								  <!-- <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 									<div class="accordion-body">
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
 									</div>
-								  </div>
+								  </div> -->
 								</div>
 								<div class="accordion-item">
 								  <h2 class="accordion-header">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+										Academic excellence and excellent board result
 									</button>
 								  </h2>
-								  <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
-									</div>
-								  </div>
+								  
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+										Sophisticated computer lab,Hotel Management Practical Lab
+									</button>
+								  </h2>
+								  
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+										Research based study with e-library facility
+									</button>
+								  </h2>
+								  
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+										Multi media-AC classroom
+									</button>
+								  </h2>
+								  
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+										Moderate fee structure
+									</button>
+								  </h2>
+								  
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+										Situated at prime location
+									</button>
+								  </h2>
+								  
+								</div>
+								<div class="accordion-item">
+								  <h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+										Transportation facility
+									</button>
+								  </h2>
+								  
 								</div>
 							</div>
 						</div>
@@ -269,6 +318,7 @@
 							</div>
 						</div>
 					</div>
+					<a href="BBM.php">view All</a>
 				</div>
 			</div>
 		</div>

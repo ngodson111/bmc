@@ -136,7 +136,7 @@
 						<div class="course-details-wrapper mb-30">
 							<div class="course-details-content">
 								<div class="course-details-img">
-									<img src="assets/img/courses/04.jpg" alt="" />
+									<img src="assets/img/courses/bhm1.jpg" alt="" />
 								</div>
 								<div class="details-course">
 									<h5>Management</h5>
@@ -167,17 +167,17 @@
 										<span>120 avobe</span>
 									</li>
 									<li>
-										<h5>CCertification</h5>
-										<span>yes</span>
+										<h5>Certification</h5>
+										<span>Pokhara University (PU)</span>
 									</li>
 									<li>
-										<h5>Head of The Departmen</h5>
-										<span>Nicklos Leeo</span>
+										<h5>Head of The Department</h5>
+										<span></span>
 									</li>
 									
 								</ul>
 								<div class="Courses-Features-img">
-									<img src="assets/img/courses/05.jpg" alt="" />
+									<img src="assets/img/courses/bhmcourse.jpg" alt="" />
 								</div>
 							</div><br><br><br>
 							<h4>Admission Procedure</h4>
@@ -192,7 +192,7 @@
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
-															Year I
+															First Semester Courses
 														</button>
 													</h2>
 													<div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
@@ -201,30 +201,56 @@
 																<thead>
 																	<tr>
 																		<th>Module Code</th>
-																		<th>Module Title</th>
-																		<th>Trimester</th>
-																		<th>Credit</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
 																	</tr>
 																</thead>
 																<tbody>
-																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
-																	</tr>
-																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
-																	</tr>
-																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
-																	</tr>
+																<tr>
+			                                        <td class="ct-col-1">THS 161</th>
+			                                        <td class="ct-col-2">Fundamentals of Tourism and Hospitality</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 171</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie I (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 191</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie I (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 172</th>
+			                                        <td class="ct-col-2">Food and Beverage Service I (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 192</th>
+			                                        <td class="ct-col-2">Food and Beverage Service I (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 181</th>
+			                                        <td class="ct-col-2">Accommodation Operations I(Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 191</th>
+			                                        <td class="ct-col-2">Accommodation Operations I(Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ENG 101</th>
+			                                        <td class="ct-col-2">English I</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">MGT 111</th>
+			                                        <td class="ct-col-2">Principles of Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
 																</tbody>
 															</table>
 														</div>
@@ -233,36 +259,384 @@
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Second Semester Course
 														</button>
 													</h2>
 													<div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	    <th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">FNB 174 </th>
+			                                        <td class="ct-col-2">Food Production and Patisserie II (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 194</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie II (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 175</th>
+			                                        <td class="ct-col-2">Food and Beverage Service II (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 195</th>
+			                                        <td class="ct-col-2">Food and Beverage Service II (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 183</th>
+			                                        <td class="ct-col-2">Accommodation Operations II(Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 193</th>
+			                                        <td class="ct-col-2">Accommodation Operations II(Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MTH 105</th>
+			                                        <td class="ct-col-2">Basic Mathematics</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ENG 102</th>
+			                                        <td class="ct-col-2">English II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">FNH</th>
+			                                        <td class="ct-col-2">Food and Hygiene & Nutrition</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Third Semester Course
 														</button>
 													</h2>
 													<div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																<tr>
+																	    <th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">FNB 271</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie III (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 291</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie III (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 272</th>
+			                                        <td class="ct-col-2">Food and Beverage Service III (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 292</th>
+			                                        <td class="ct-col-2">Food and Beverage Service III (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 281</th>
+			                                        <td class="ct-col-2">Room Division Management I (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 291</th>
+			                                        <td class="ct-col-2">Room Division Management I (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ACC 125</th>
+			                                        <td class="ct-col-2">Hospitality accounting I</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MIS 201</th>
+			                                        <td class="ct-col-2">Introduction to Management Information Systems</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">SOC 101</td>
+			                                        <td class="ct-col-2">Fundamentals of Sociology</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Fourth Semester Courses
 														</button>
 													</h2>
 													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">FNB 274</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie IV (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 294</th>
+			                                        <td class="ct-col-2">Food Production and Patisserie IV (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 275</th>
+			                                        <td class="ct-col-2">Food and Beverage Service IV (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FNB 295</th>
+			                                        <td class="ct-col-2">Food and Beverage Service IV (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 283</th>
+			                                        <td class="ct-col-2">Room Division Management II (Theory)</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RDM 293</th>
+			                                        <td class="ct-col-2">Room Division Management II (Practical)</td>
+			                                        <td class="ct-col-3">1.5</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ACC 126</th>
+			                                        <td class="ct-col-2">Hospitality Accounting II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">PSY 101</th>
+			                                        <td class="ct-col-2">General Psychology</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">ENG 204</th>
+			                                        <td class="ct-col-2">Business Communication for the Hotel Industry</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Fifth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">HRM 153</th>
+			                                        <td class="ct-col-2">Hospitality human Resource Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">STT 101</th>
+			                                        <td class="ct-col-2">Business Statistics</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RCH 311</th>
+			                                        <td class="ct-col-2">Business Research Methods</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FIN 133</th>
+			                                        <td class="ct-col-2">Fundamentals of Financial Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MKT 143</th>
+			                                        <td class="ct-col-2">Hospital Marketing</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2" style="color:red"><b>SPECIALIZATION 1 (CHOOSE 1)</b></td>
+			                                        <td class="ct-col-3"></td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">FNB 371</th>
+			                                        <td class="ct-col-2">Advanced Food & Beverage Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">RDM 381</th>
+			                                        <td class="ct-col-2">Advanced Accommodation Operations Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Sixth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">MGT 312</th>
+			                                        <td class="ct-col-2">Fundamenrtals of Entrepreneurship</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 216</th>
+			                                        <td class="ct-col-2">Tourism Business Environment</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ECO 105</th>
+			                                        <td class="ct-col-2">Tourism Economics</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 412</th>
+			                                        <td class="ct-col-2">Strategic Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">PRJ 494</th>
+			                                        <td class="ct-col-2">Project Work</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2" style="color:blue"><b>SPECIALIZATION 2 (CHOOSE 1)</b></td>
+			                                        <td class="ct-col-3"></td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">FNB 372</th>
+			                                        <td class="ct-col-2">Advanced Food & Beverage Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+												<tr>
+			                                        <td class="ct-col-1">RDM 382</th>
+			                                        <td class="ct-col-2">Advanced Accommodation Operations Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Seveth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">INT 392</th>
+			                                        <td class="ct-col-2">Internship</td>
+			                                        <td class="ct-col-3">6</td>
+			                                    </tr>
+		                                    			                                   
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Eighth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																		<th>Module Code</th>
+																		<th>Module Title</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">INT 397</th>
+			                                        <td class="ct-col-2">Internship</td>
+			                                        <td class="ct-col-3">6</td>
+			                                    </tr>
+		                                    			                                    
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>

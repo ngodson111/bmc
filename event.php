@@ -115,7 +115,7 @@
 			<!-- main-menu-area-end -->
 		</header>
 		<!-- page-title-area-start -->
-		<div class="page-title-area ptb-170 bg-opacity-1" style="background-image:url(assets/img/bg/14.jpg)">
+		<!-- <div class="page-title-area ptb-170 bg-opacity-1" style="background-image:url(assets/img/bg/14.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- page-title-area-end -->
 		<!-- event-grid-style-01-start -->
 		<div class="event-grid-style-01 pt-130 pb-100">

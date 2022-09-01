@@ -115,18 +115,18 @@
 			<!-- main-menu-area-end -->
 		</header>
 		<!-- page-title-area-start -->
-		<div class="page-title-area ptb-190 bg-opacity" style="background-image:url(assets/img/bg/15.jpg)">
+		<!-- <div class="page-title-area ptb-190 bg-opacity" style="background-image:url(assets/img/bg/15.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
 						<div class="page-title-text">
 							<h2>Notices</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- page-title-area-end -->
 		<!-- blog-grid-area-start -->
 		<div class="blog-grid-area pt-130 pb-100">

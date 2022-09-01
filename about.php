@@ -134,7 +134,7 @@
 				<div class="row g-0 align-items-stretch">
 					<div class="col-lg-6">
 						<div class="about-image">
-							<img src="assets/img/about/1.jpg" alt="">
+							<img src="assets/img/about/dn.jpg" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -156,7 +156,7 @@
 		</div>
 		<!-- about-tutoring-area-end -->
 		<!-- video-area-start -->
-		<div class="video-area bg-opacity-7 ptb-220" style="background-image:url(assets/img/bg/8.jpg)">
+		<div class="video-area bg-opacity-7 ptb-220" style="background-image:url(assets/img/bg/BMC.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 mx-auto">
@@ -276,7 +276,7 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="frequently-image">
-							<img src="assets/img/about/2.jpg" alt="">
+							<img src="assets/img/about/5.jpg" alt="">
 						</div>
 					</div>
 				</div>

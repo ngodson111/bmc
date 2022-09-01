@@ -136,7 +136,7 @@
 						<div class="course-details-wrapper mb-30">
 							<div class="course-details-content">
 								<div class="course-details-img">
-									<img src="assets/img/courses/04.jpg" alt="" />
+									<img src="assets/img/courses/bba.jpg" alt="" />
 								</div>
 								<div class="details-course">
 									<h5>Management</h5>
@@ -160,24 +160,24 @@
 									</li>
 									<li>
 										<h5>No of Subject</h5>
-										<span>8</span>
+										<span>40</span>
 									</li>
 									<li>
 										<h5>Students</h5>
-										<span>120 avobe</span>
+										<span>120 above</span>
 									</li>
 									<li>
-										<h5>CCertification</h5>
-										<span>yes</span>
+										<h5>Certification</h5>
+										<span>Pokhara University (PU)</span>
 									</li>
 									<li>
-										<h5>Head of The Departmen</h5>
-										<span>Nicklos Leeo</span>
+										<h5>Head of The Department</h5>
+										<span></span>
 									</li>
 									
 								</ul>
 								<div class="Courses-Features-img">
-									<img src="assets/img/courses/05.jpg" alt="" />
+									<img src="assets/img/courses/bbacourse.jpg" alt="" />
 								</div>
 							</div><br><br><br>
 							<h4>Admission Procedure</h4>
@@ -192,7 +192,7 @@
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
-															Year I
+															First Semester Courses
 														</button>
 													</h2>
 													<div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
@@ -201,30 +201,36 @@
 																<thead>
 																	<tr>
 																		<th>Module Code</th>
-																		<th>Module Title</th>
-																		<th>Trimester</th>
-																		<th>Credit</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
 																	</tr>
 																</thead>
 																<tbody>
-																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
-																	</tr>
-																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
-																	</tr>
-																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
-																	</tr>
+																<tr>
+			                                        <td >ENG 101</th>
+			                                        <td >English I</td>
+			                                        <td >3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td >MTH 101</th>
+			                                        <td >Business Mathematics I</td>
+			                                        <td >3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td >ACC 121</th>
+			                                        <td >Financial Accounting I</td>
+			                                        <td >3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td >MGT 111</th>
+			                                        <td >Principles of Managements</td>
+			                                        <td >3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td >MIS 101</th>
+			                                        <td >Computer and IT Application</td>
+			                                        <td >3</td>
+			                                    </tr>
 																</tbody>
 															</table>
 														</div>
@@ -233,42 +239,339 @@
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Second Semester Course
 														</button>
 													</h2>
 													<div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	    <th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">ENG 102</th>
+			                                        <td class="ct-col-2">English II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MTH 102</th>
+			                                        <td class="ct-col-2">Business Mathematics II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ACC 122</th>
+			                                        <td class="ct-col-2">Financial Accounting II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">PSY 101</th>
+			                                        <td class="ct-col-2">General Psychology</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ECO 101</th>
+			                                        <td class="ct-col-2">Introductory Microeconomics</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Third Semester Course
 														</button>
 													</h2>
 													<div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">ENG 201 </th>
+			                                        <td class="ct-col-2">Business Communication I</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">STT 101</th>
+			                                        <td class="ct-col-2">Business Statistics</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FIN 131</th>
+			                                        <td class="ct-col-2">Essentials of Finance</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">SCO 101</th>
+			                                        <td class="ct-col-2">Fundamentals of Sociology</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">ECO 201</th>
+			                                        <td class="ct-col-2">Introductory Macroeconomics</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Fourth Semester Courses
 														</button>
 													</h2>
 													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">ENG 202</th>
+			                                        <td class="ct-col-2">Business Communication II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">STT 201</th>
+			                                        <td class="ct-col-2">Data Analysis and Modeling</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 211</th>
+			                                        <td class="ct-col-2">Fundamentals of Organizational Behavior</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MKT 241</th>
+			                                        <td class="ct-col-2">Principle of Marketing</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">FIN 231</th>
+			                                        <td class="ct-col-2">Financial Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Fifth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">ACC 221</th>
+			                                        <td class="ct-col-2">Basics of Managerial Accounting</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">RCH 311</th>
+			                                        <td class="ct-col-2">Business Research Methods</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 314</th>
+			                                        <td class="ct-col-2">Management of Human Resources</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 311</th>
+			                                        <td class="ct-col-2">Fundamentals of Operations Management</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Concentration I</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Sixth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">MIS 201</th>
+			                                        <td class="ct-col-2">Introduction to Management Information System</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">LAW 291</th>
+			                                        <td class="ct-col-2">Legal Aspect of Business and Technology</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 212</th>
+			                                        <td class="ct-col-2">Business and Society</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">PRJ 491</th>
+			                                        <td class="ct-col-2">Project Work</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Concentration II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Seveth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																	<th>Module Code</th>
+																		<th>Course Description</th>
+																		<th>Credit Hours</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Business Environment in Nepal</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Fundamenrtals of Entrepreneurship</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 314</th>
+			                                        <td class="ct-col-2">Internship</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 311</th>
+			                                        <td class="ct-col-2">Elective I</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Concentration III</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Eighth Semester Course
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																		<th>Module Code</th>
+																		<th>Module Title</th>
+																		<th>Credit</th>
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+			                                        <td class="ct-col-1">MGT 412</th>
+			                                        <td class="ct-col-2">Strategic Management </td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MGT 313</th>
+			                                        <td class="ct-col-2">Introduction to International Business</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1">MIS 202</th>
+			                                        <td class="ct-col-2">Essential of E-Business</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Elective II</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+		                                    			                                    <tr>
+			                                        <td class="ct-col-1"></th>
+			                                        <td class="ct-col-2">Concentration IV</td>
+			                                        <td class="ct-col-3">3</td>
+			                                    </tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 												</div>
 											</div>
 										</div>
+										
 										<div class="col-lg-4 p-0">
 											<div class="frequently-image">
 												<img src="assets/img/about/2.jpg" alt="">

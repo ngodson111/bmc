@@ -120,7 +120,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="page-title-text">
-							<h2>BACHELORS DEGREE PROGRAMS</h2>
+							<h2>BACHELORS & MASTER'S DEGREE PROGRAMS</h2>
 							<p>Undergraduate programs at BMC are designed to produce professional managers and entrepreneurs by providing students with sound conceptual foundation and practical skills in various areas of business.</p>
 						
 						</div>
@@ -150,7 +150,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="courses-wrapper mb-80">
 							<div class="courses-img">
-								<a href="bhm.php"><img src="assets/img/courses/2.jpg" alt="" />
+								<a href="bhm.php"><img src="assets/img/courses/bhm.jpg" alt="" />
 									<span>Management</span>
 								</a>
 							</div>
@@ -164,13 +164,15 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="courses-wrapper mb-80">
 							<div class="courses-img">
-								<a href="mpgd.php"><img src="assets/img/courses/2.jpg" alt="" />
+								<a href="mpgd.php"><img src="assets/img/courses/master.jpg" alt="" />
 									<span>Master</span>
 								</a>
 							</div>
 							<div class="courses-content">
 								<h4><a href="mpgd.php">Master in Population Gender and Development (MPGD)s</a></h4>
-								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
+								<p>It is the first affilated college other than the University to the Master in Population Gender and Development(MPGD) course.
+									The aims of the college is to offer development orientend professional course to the motivated students in Western Region in Particular.
+								</p>
 								<a href="mpgd.php">apply now</a>
 							</div>
 						</div>

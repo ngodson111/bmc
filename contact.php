@@ -121,7 +121,7 @@
 					<div class="col-md-12">
 						<div class="page-title-text">
 							<h2>contact</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							<p>GET IN TOUCH</p>
 						</div>
 					</div>
 				</div>

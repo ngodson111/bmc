@@ -136,7 +136,7 @@
 						<div class="course-details-wrapper mb-30">
 							<div class="course-details-content">
 								<div class="course-details-img">
-									<img src="assets/img/courses/04.jpg" alt="" />
+									<img src="assets/img/courses/mpgd.jpg" alt="" />
 								</div>
 								<div class="details-course">
 									<h5>Master</h5>
@@ -145,9 +145,10 @@
 							</div>
 							<div class="course-description-content">
 								<h4>Course Description :</h4>
-								<p>TIn the context of Nepal, if you want to pursue your career in hotel management or hospitality development. BHM or Business in Hotel Management is a very prestigious undergraduate course having a duration of 4 years with 8 semesters with a minimum fee structure.</p><br>
-								<p>BHM can be one of the best courses you can seek forward for. It provides not only theoretical knowledge to the student but forms practical reliability with skilled-filled to meet the needs of people looking for employment in management positions in the Hotel industry.</p><br>
-								<p>This course covers the fundamentals of Hotel engineering, the Principal of Food and Beverages production, Hospitality, Office operation, and Housekeeping administration along with acquainting the student with the multidimensional Hotels and hospitality industry.</p>
+								<p>The MPGD PROGRAM Education has to contend with the demands of global force as will as the unprecedented emerging trends in their respective societies educational policies and practices impact students' learning in a holistic way. Investment in education is the key to national development, national wealth and economic survival. This belief lead a team of committed professional to initiated Butwal Model College. Department of Development Studies has been established in the year 2009 with the affiliation from Pokhara University. It is the first affiliated college other than the University to offer Master in Population Gender and Development (MPGD) course. The aim of the college is to offer development oriented professional course to the motivated students in Western Region in Particular.</p><br>
+								<p>BMC is actually the latest institution to enter the NHC & KMC Educational Network. This network has established itself as a pioneer of its kind by successfully establishing more than half a dozen of educational institutions in the last twelve years. This level of classes it runs span from schooling to Master's Degree programs and the faculties- from Engineering to Humanities. </p><br>
+								<p>Grading system:</p>
+								<p>The grades marks awarded to a student in a course is based on his/her consolidated performance in internal and final examination. The latter grade in any particular subject is an indication of a student relative performance in that an indication of a student relative performance in that course. </p> 
 							</div>
 							<div class="Courses-Features">
 								<ul class="Courses-Features-menu">
@@ -177,11 +178,11 @@
 									
 								</ul>
 								<div class="Courses-Features-img">
-									<img src="assets/img/courses/05.jpg" alt="" />
+									<img src="assets/img/courses/mpgdcourse.jpg" alt="" />
 								</div>
 							</div><br><br><br>
 							<h4>Admission Procedure</h4>
-							<p>Entry requirement for a new student in  BHM program will be 10+2 orequivalent from any discipline. An entrance examination will be helId for allapplicants to be selected for admission. A notice applications for admission ispublicly announced. Applications are scrutinized and the eligible candidatehas to attend entrance examination on the designated date and venue. Awritten examination followed by an interview will be arranged for selection ofstudents.A combined score of entrance examination, interview and academicrecords will be derived for result and merit list of admission.</p>
+							<p>Entry requirement for a new student in </p>
 							<div class="frequently-asked-area pt-130">
 								<div class="container frequently">
 									<div class="row justify-content-center m-0 p-0">
@@ -192,7 +193,7 @@
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
-															Year I
+															First Semester Course
 														</button>
 													</h2>
 													<div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
@@ -202,28 +203,34 @@
 																	<tr>
 																		<th>Module Code</th>
 																		<th>Module Title</th>
-																		<th>Trimester</th>
-																		<th>Credit</th>
+																		
 																	</tr>
 																</thead>
 																<tbody>
 																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
+																		<td>DSE 501</td>
+																		<td>Advanced Development Studies</td>
+																		
 																	</tr>
 																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
+																		<td>DSE 502</td>
+																		<td>Social Engineering & Develpment</td>
+																		
 																	</tr>
 																	<tr>
-																		<td>M1N627146</td>
-																		<td>Enterprising Behaviours for the Business Professional</td>
-																		<td>A</td>
-																		<td>20</td>
+																		<td>PGD 503</td>
+																		<td>Principles of population studies</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD 504</td>
+																		<td>Fundamentals of Gender Studies</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD 503</td>
+																		<td>Statistics for Social Sciences</td>
+																		
 																	</tr>
 																</tbody>
 															</table>
@@ -233,50 +240,154 @@
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Second Semester Course
 														</button>
 													</h2>
 													<div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
-														</div>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																		<th>Module Code</th>
+																		<th>Module Title</th>
+																		
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>PGD 506</td>
+																		<td>Contemporary Issues of Children,Youth & Elderly in Development</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD 507</td>
+																		<td>Economic Development & Planning</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>DSE 508</td>
+																		<td>Globalization & Development</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>DSE 509</td>
+																		<td>Research Methods for Development Studies</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>DSE 510</td>
+																		<td>Information Technology for Social Research</td>
+																		
+																	</tr>
+																</tbody>
+															</table>		
+													</div>
 													</div>
 													</div>
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Third Semester Course
 														</button>
 													</h2>
 													<div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																		<th>Module Code</th>
+																		<th>Module Title</th>
+																		
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+																		<td>DSE 601</td>
+																		<td>Development Program Management</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD 602</td>
+																		<td>Gender Mainstraming in Development</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD XXX</td>
+																		<td>Specialized Course I</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD XXX</td>
+																		<td>Specialized Course II</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>DSE 691</td>
+																		<td>Planninng Workshop (Field Based)</td>
+																		
+																	</tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 													<div class="accordion-item">
 													<h2 class="accordion-header">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
-															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+															Fourth Semester Courses
 														</button>
 													</h2>
 													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
 														<div class="accordion-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														<table class="table table-sm">
+																<thead>
+																	<tr>
+																		<th>Module Code</th>
+																		<th>Module Title</th>
+																		
+																	</tr>
+																</thead>
+																<tbody>
+																<tr>
+																		<td>DSE 631</td>
+																		<td>Development Program Monitoring & Evaluation</td>
+																		
+																	</tr>
+																	
+																	<tr>
+																		<td>PGD XXX</td>
+																		<td>Specialized Course III</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>PGD XXX</td>
+																		<td>Specialized Course IV</td>
+																		
+																	</tr>
+																	<tr>
+																		<td>DSE 691</td>
+																		<td>Dissertation</td>
+																		
+																	</tr>
+																</tbody>
+															</table>
 														</div>
 													</div>
 													</div>
 												</div>
 											</div>
 										</div>
+										
 										<div class="col-lg-4 p-0">
 											<div class="frequently-image">
 												<img src="assets/img/about/2.jpg" alt="">
 											</div>
 										</div>
+										
 									</div>
 								</div>
 							</div>
+							
 							<br>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore maaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodconsequat.iirureprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste </p> -->
 							<button type="button" class="register-now-button" data-bs-toggle="modal" data-bs-target="#myModal">
@@ -287,6 +398,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<!-- course-list-area-end -->
 		<footer>
 			<!-- footer-top-area-start -->

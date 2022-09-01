@@ -130,7 +130,7 @@
 										<div class="row">
 											<div class="col-lg-8 col-12">
 												<div class="slider-text slider-text-animation">
-													<h1>A unique college  for Business Administration and Hotel Management Study.</h1>
+													<h1 style="color:#016afb">A unique college  for Business Administration and Hotel Management Study.</h1>
 													<div class="slider-info">
 														<p>
                             Butwal Model College, a co-educational institution, is an educational network of New Horizon College & Kathmandu Model College affiliated to Pokhara University. It has been conducting MPGD (Masters…                        </p>
@@ -213,7 +213,9 @@
 										<div role="tabpanel" class="tab-pane" id="messages">
 											<div class="campus-wrapper">
 												<div class="campus-content">
-													<p>It is a privilege on my part to drop a few words of thanks to all of our Board members, guardians and ex-students for their sincere effort and timely suggestions to boost this institution reach to this extend. I am especially thankful to all the associates of this institution who worked hand in hand together to provide it a present day look.Yet, a lot has to be done to actualize the dream of New Horizon.Even,it was impossible without the great initiation of our parents, our diligent students and dedicated teaching and non-teaching staff as well as the kind assistance of the management executives, who extended their helping hands to destine</p>
+													<p>It is a privilege on my part to drop a few words of thanks to all of our Board members, guardians and ex-students for their sincere effort and timely suggestions to boost this institution reach to this extend. </p>
+													<p>	I am especially thankful to all the associates of this institution who worked hand in hand together to provide it a present day look.Yet, a lot has to be done to actualize the dream of New Horizon.Even,it was impossible without the great initiation of our parents, our diligent students and dedicated teaching and non-teaching staff as well as the kind assistance of the management executives, who extended their helping hands to destine</p>
+													<h4>Netra Bashyal </h4>
 													<!-- <a href="#">read more</a> -->
 												</div>
 											</div>
@@ -243,7 +245,7 @@
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="bbm.php">Bachelor in Business Manangement (BBS)</a></h4>
+								<h4><a href="bbm.php">Bachelor in Business Manangement (BBA)</a></h4>
 								<p>The BBA is a four-year undergraduate program delivered by Butwal Model College</p>
 								<!-- <a href="bbm.php">apply now</a> -->
 								<a href="bbm.php">learn more</a>
@@ -253,7 +255,7 @@
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="courses-wrapper mb-30">
 							<div class="courses-img">
-								<a href="bhm.php"><img src="assets/img/courses/1.jpg" alt="" />
+								<a href="bhm.php"><img src="assets/img/courses/bhm.jpg" alt="" />
 									<span>Management</span>
 								</a>
 							</div>
@@ -268,7 +270,7 @@
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="courses-wrapper mb-30">
 							<div class="courses-img">
-								<a href="mpgd.php"><img src="assets/img/courses/1.jpg" alt="" />
+								<a href="mpgd.php"><img src="assets/img/courses/master.jpg" alt="" />
 									<span>Master</span>
 								</a>
 							</div>
@@ -342,7 +344,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5 col-5 p-0 col-md choose-img ptb-100" style="background-image:url(assets/img/bg/1.jpg)"></div>
+					<div class="col-md-5 col-5 p-0 col-md choose-img ptb-100" style="background-image:url(assets/img/bg/1.1.jpg)"></div>
 				</div>
 			</div>
 		</div>

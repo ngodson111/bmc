@@ -809,4 +809,112 @@ html {
 #content-wrapper .pages #page9 .wrapper .editevent button.event {
   background: var(--main-text-color);
   color: white;
+}
+#content-wrapper .pages #page10 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page10 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page10 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page10 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page10 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page10 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page10 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page10 .wrapper #addteacher .modal-body input[type=text],
+#content-wrapper .pages #page10 .wrapper #addteacher .modal-body textarea {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page10 .wrapper #addteacher .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page10 .wrapper .editteacher input.teacher,
+#content-wrapper .pages #page10 .wrapper .editteacher textarea.teacher {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page10 .wrapper .editteacher button.teacher {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page11 .wrapper {
+  background: white;
+  border-radius: 6px;
+  margin: 2em;
+}
+#content-wrapper .pages #page11 .wrapper hr {
+  margin: 0;
+}
+#content-wrapper .pages #page11 .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#content-wrapper .pages #page11 .wrapper .top .title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#content-wrapper .pages #page11 .wrapper .top .add {
+  background: var(--main-text-color);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#content-wrapper .pages #page11 .wrapper .top .add i {
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+}
+#content-wrapper .pages #page11 .wrapper .top .add i:active {
+  color: grey;
+}
+#content-wrapper .pages #page11 .wrapper #addlinks .modal-body input.links {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page11 .wrapper #addlinks .modal-body button {
+  background: var(--main-text-color);
+  color: white;
+}
+#content-wrapper .pages #page11 .wrapper .editlinks input.links {
+  background: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 13px;
+  border-radius: 4px;
+}
+#content-wrapper .pages #page11 .wrapper .editlinks button.links {
+  background: var(--main-text-color);
+  color: white;
 }/*# sourceMappingURL=index.css.map */

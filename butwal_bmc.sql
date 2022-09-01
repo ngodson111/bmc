@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 26, 2022 at 09:45 AM
+-- Generation Time: Aug 31, 2022 at 12:44 PM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.9
 
@@ -40,6 +40,13 @@ CREATE TABLE `applicants` (
   `inserted` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `applicants`
+--
+
+INSERT INTO `applicants` (`id`, `uid`, `name`, `program`, `parents`, `email`, `dob`, `phone`, `remark`, `inserted`) VALUES
+(3, '225100716', 'narayan neupane', 'BHM', 'wefg', 'narannpn@gmail.com', '2022-08-31', '9805401056', 'asdfsadf', '2022-08-31 12:52:38');
+
 -- --------------------------------------------------------
 
 --
@@ -58,7 +65,7 @@ CREATE TABLE `auth` (
 --
 
 INSERT INTO `auth` (`uid`, `username`, `password`, `inserted`) VALUES
-(1, 'bmc', '$2y$12$WhlTNhbJKos/ndf7WuB5LeZH8wlxGSBIxVBi02eJZfCMalwLtyfiC', '2022-08-26 13:07:37');
+(1, 'bmc', '$2y$12$fdT568CfGguklZKzDoS2renOGvwaZkPTwy20ce4.QoTHuNuY1cfxW', '2022-08-27 11:22:44');
 
 -- --------------------------------------------------------
 
@@ -68,13 +75,6 @@ INSERT INTO `auth` (`uid`, `username`, `password`, `inserted`) VALUES
 
 CREATE TABLE `contacts` (
   `uid` int(50) NOT NULL,
-  `bsclocation` varchar(100) NOT NULL,
-  `bscnumber` varchar(50) NOT NULL,
-  `bscnumber1` varchar(50) NOT NULL,
-  `bbslocation` varchar(100) NOT NULL,
-  `bbsnumber` varchar(50) NOT NULL,
-  `bbsnumber1` varchar(50) NOT NULL,
-  `bbsnumber2` varchar(50) NOT NULL,
   `admission` varchar(20) NOT NULL DEFAULT 'No',
   `admissionimg` varchar(100) NOT NULL,
   `inserted` varchar(50) NOT NULL
@@ -84,8 +84,8 @@ CREATE TABLE `contacts` (
 -- Dumping data for table `contacts`
 --
 
-INSERT INTO `contacts` (`uid`, `bsclocation`, `bscnumber`, `bscnumber1`, `bbslocation`, `bbsnumber`, `bbsnumber1`, `bbsnumber2`, `admission`, `admissionimg`, `inserted`) VALUES
-(1, 'Tilottama-1, Drivertol, Rupandehi', ' 071-414485', '071-414351', 'Kalikanagar, Butwal-10, Rupandehi', '071-438676', '071-437676', '.', 'No', '162278b676581b.jpg', '2022-08-26 13:07:02');
+INSERT INTO `contacts` (`uid`, `admission`, `admissionimg`, `inserted`) VALUES
+(1, 'No', '1630f39e5ea4a5.JPG', '2022-08-31 16:25:17');
 
 -- --------------------------------------------------------
 
@@ -129,8 +129,30 @@ CREATE TABLE `gallery` (
   `title` varchar(70) NOT NULL,
   `remark` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
+  `mark` varchar(50) NOT NULL,
   `inserted` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `gallery`
+--
+
+INSERT INTO `gallery` (`id`, `uid`, `title`, `remark`, `image`, `mark`, `inserted`) VALUES
+(9, '894013580', 'Program', 'THis is a program', '1630f08247ddfa563aade0b2bfd.jpeg', 'image', '2022-08-31 12:50:08');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `links`
+--
+
+CREATE TABLE `links` (
+  `id` int(20) NOT NULL,
+  `uid` varchar(100) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `link` text NOT NULL,
+  `inserted` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -180,7 +202,24 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`id`, `uid`, `image`, `inserted`) VALUES
-(13, '624838751', '1630879f2b780e563aade0b2bfd.jpeg', '2022-08-26 13:29:50');
+(14, '1292021810', '1630b3723e3a8f563aade0b2bfd.jpeg', '2022-08-28 15:21:35');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `teacher`
+--
+
+CREATE TABLE `teacher` (
+  `id` int(50) NOT NULL,
+  `uid` varchar(100) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `position` varchar(100) NOT NULL,
+  `image` varchar(100) NOT NULL,
+  `remark` text NOT NULL,
+  `education` text NOT NULL,
+  `inserted` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -239,6 +278,12 @@ ALTER TABLE `gallery`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `links`
+--
+ALTER TABLE `links`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `messages`
 --
 ALTER TABLE `messages`
@@ -257,6 +302,12 @@ ALTER TABLE `slider`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `teacher`
+--
+ALTER TABLE `teacher`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `testimonials`
 --
 ALTER TABLE `testimonials`
@@ -270,7 +321,7 @@ ALTER TABLE `testimonials`
 -- AUTO_INCREMENT for table `applicants`
 --
 ALTER TABLE `applicants`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `auth`
@@ -300,7 +351,13 @@ ALTER TABLE `event`
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `links`
+--
+ALTER TABLE `links`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `messages`
@@ -318,7 +375,13 @@ ALTER TABLE `notice`
 -- AUTO_INCREMENT for table `slider`
 --
 ALTER TABLE `slider`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
+--
+-- AUTO_INCREMENT for table `teacher`
+--
+ALTER TABLE `teacher`
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `testimonials`

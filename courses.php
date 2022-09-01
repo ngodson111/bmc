@@ -1,3 +1,7 @@
+<?php
+	include "./admin/php/connect.php";
+	include "./admin/content/php/mainendpoint.php";
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
     
@@ -39,7 +43,7 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body>
-        <header>
+		<header>
 			<!-- header-top-area-start -->
 			<div class="header-top-area gray-bg-1 section-fluid-255">
 				<div class="container-fluid">
@@ -47,8 +51,8 @@
 						<div class="col-auto">
 							<div class="header-left-wrapper">
 								<ul class="header-top-text d-flex flex-column flex-md-row justify-content-center">
-									<li>E-mail Address : tutoring@mail.com</li>
-									<li>Contact Number : +003457289</li>
+									<li>E-mail Address :  bumocol@gmail.com</li>
+									<li>Contact Number : 017-429193,429192</li>
 								</ul>
 							</div>
 						</div>
@@ -76,11 +80,28 @@
 								<nav>
 									<ul>
 										<li><a href="index.php">Home</a></li>                                                         
-										<li class="active"><a href="courses.php">Courses</a></li>
-										<li><a href="event.php">Event</a></li>
-										<li><a href="notice.php">Notice</a></li>
-										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<li class="active">
+											<a href="courses.php">Courses</a>
+											<ul class="sub-menu text-left">
+												<li><a href="bbm.php">BBA</a></li>
+												<li><a href="bhm.php">BHM</a></li>
+												<li><a href="mpgd.php">MPGD</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="notice.php">Events & Notices</a>
+											<ul class="sub-menu text-left">
+												<li><a href="notice.php">Notice</a></li>
+												<li><a href="event.php">Event</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.php">Gallery</a>
+											<ul class="sub-menu text-left">
+												<li><a href="gallery.php">Images</a></li>
+												<li><a href="video.php">Videos</a></li>
+											</ul>
+										</li>
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact</a></li>
 									</ul>
@@ -122,35 +143,35 @@
 							<div class="courses-content">
 								<h4><a href="courses-details.php">Bachelor in Business Management (BBM)</a></h4>
 								<p>The BBA is a four-year undergraduate program delivered by Butwal Model College.As a student of Business Management, one will master key business functions such as strategy, leadership, managing people and operations, entrepreneurship, innovation and technology management. </p>
-								<a href="BBM.php">apply now</a>
+								<a href="bbm.php">apply now</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="courses-wrapper mb-80">
 							<div class="courses-img">
-								<a href="courses-details.html"><img src="assets/img/courses/2.jpg" alt="" />
+								<a href="bhm.php"><img src="assets/img/courses/2.jpg" alt="" />
 									<span>Management</span>
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="courses-details.html">Bachelor in Hotel Manangement (BHM)</a></h4>
+								<h4><a href="bhm.php">Bachelor in Hotel Manangement (BHM)</a></h4>
 								<p>In the context of Nepal, if you want to pursue your career in hotel management or hospitality development. BHM or Business in Hotel Management is a very prestigious undergraduate course having a duration of 4 years with 8 semesters </p>
-								<a href="courses-details.html">apply now</a>
+								<a href="bhm.php">apply now</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="courses-wrapper mb-80">
 							<div class="courses-img">
-								<a href="courses-details.html"><img src="assets/img/courses/2.jpg" alt="" />
+								<a href="mpgd.php"><img src="assets/img/courses/2.jpg" alt="" />
 									<span>Master</span>
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="courses-details.html">Master in Population Gender and Development (MPGD)s</a></h4>
+								<h4><a href="mpgd.php">Master in Population Gender and Development (MPGD)s</a></h4>
 								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
-								<a href="courses-details.html">apply now</a>
+								<a href="mpgd.php">apply now</a>
 							</div>
 						</div>
 					</div>
@@ -167,14 +188,14 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-12">
 								<div class="footer-wrapper mb-30">
-									<h2 class="footer-title">About Poralikha</h2>
+									<h2 class="footer-title">About Butwal Model College(BMC)</h2>
 									<div class="footer-content">
-										<p>Lorem ipsum dolor sit cnr adipisicing elit, sed do eiusmod tempor incididuntlabore et dolore magna aliqua. </p>
+										<p>Butwal Model College, a co-educationalinstitution, is an educational network ofNew Horizon College & KathmanduModel College affiliated to PokharaUniversity.  </p>
 									</div>
 									<ul class="footer-link">
-										<li><i class="zmdi zmdi-pin"></i>California Street san Francisco, CA</li>
-										<li><i class="fa fa-phone"></i>Phone : +660 256 24857 </li>
-										<li><i class="fa fa-envelope"></i>Email : username@email.com,</li>
+										<li><i class="zmdi zmdi-pin"></i>Omstiyaa Rural Municipality-1,Rupandehi</li>
+										<li><i class="fa fa-phone"></i>Phone : 017-429193,429192 </li>
+										<li><i class="fa fa-envelope"></i>Email : bumocol@gmail.com</li>
 									</ul>
 								</div>
 							</div>
@@ -186,7 +207,19 @@
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact Us</a></li>
 										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<?php
+										include("./admin/content/php/viewlink.php");
+
+										if(count($alllink) > 0) {
+											$counter = 1;
+											$alllink = array_reverse($alllink);
+											foreach($alllink as $item) {
+												?>
+													<li><a target="_blank" href="<?php echo $item['link'] ?>"><?php echo $item['title'] ?></a></li>
+												<?php
+											}
+										}
+										?>
 									</ul>
 								</div>
 							</div>
@@ -194,10 +227,10 @@
 								<div class="footer-wrapper mb-30">
 									<h2 class="footer-title">Courses</h2>
 									<ul class="footer-menu">
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
+										<li><a href="BBM.php">Bachelor in Business Administration</a></li>
+										<li><a href="bhm.php">Bachelor in Hotel Manangement</a></li>
+										<li><a href="mpgd.php">Master in Population ,Gender and Development</a></li>
+										
 									</ul>
 								</div>
 							</div>
@@ -222,7 +255,7 @@
 					<div class="row">
 						<div class="col-md-6 col-12">
 							<div class="copyright">
-								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">NGodSon</a></p>
+								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">Bee Advertisment</a></p>
 							</div>
 						</div>
 					</div>
@@ -230,7 +263,6 @@
 			</div>
 			<!-- footer-bottom-area-end -->
 		</footer>
-		
 		
 		
 		 <!-- ::::::::::::::All JS Files here :::::::::::::: -->

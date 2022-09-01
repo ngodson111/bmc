@@ -15,5 +15,7 @@
         <li> <i class="fas fa-envelope mr-4"></i> <span>Messages</span></li>
         <li> <i class="fas fa-newspaper mr-4"></i> <span>Council</span></li>
         <li> <i class="fas fa-images mr-4"></i> <span>Event</span></li>
+        <li> <i class="fas fa-users mr-4"></i> <span>Faculty Members</span></li>
+        <li> <i class="fas fa-link mr-4"></i> <span>Usefull Links</span></li>
     </ul>
 </div>

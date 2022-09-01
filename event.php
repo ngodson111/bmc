@@ -51,8 +51,8 @@
 						<div class="col-auto">
 							<div class="header-left-wrapper">
 								<ul class="header-top-text d-flex flex-column flex-md-row justify-content-center">
-									<li>E-mail Address : tutoring@mail.com</li>
-									<li>Contact Number : +003457289</li>
+									<li>E-mail Address :  bumocol@gmail.com</li>
+									<li>Contact Number : 017-429193,429192</li>
 								</ul>
 							</div>
 						</div>
@@ -80,11 +80,28 @@
 								<nav>
 									<ul>
 										<li><a href="index.php">Home</a></li>                                                         
-										<li><a href="courses.php">Courses</a></li>
-										<li class="active"><a href="event.php">Event</a></li>
-										<li><a href="notice.php">Notice</a></li>
-										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<li>
+											<a href="courses.php">Courses</a>
+											<ul class="sub-menu text-left">
+												<li><a href="bbm.php">BBA</a></li>
+												<li><a href="bhm.php">BHM</a></li>
+												<li><a href="mpgd.php">MPGD</a></li>
+											</ul>
+										</li>
+										<li class="active">
+											<a href="notice.php">Events & Notices</a>
+											<ul class="sub-menu text-left">
+												<li><a href="notice.php">Notice</a></li>
+												<li><a href="event.php">Event</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.php">Gallery</a>
+											<ul class="sub-menu text-left">
+												<li><a href="gallery.php">Images</a></li>
+												<li><a href="video.php">Videos</a></li>
+											</ul>
+										</li>
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact</a></li>
 									</ul>
@@ -161,14 +178,14 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-12">
 								<div class="footer-wrapper mb-30">
-									<h2 class="footer-title">About Poralikha</h2>
+									<h2 class="footer-title">About Butwal Model College(BMC)</h2>
 									<div class="footer-content">
-										<p>Lorem ipsum dolor sit cnr adipisicing elit, sed do eiusmod tempor incididuntlabore et dolore magna aliqua. </p>
+										<p>Butwal Model College, a co-educationalinstitution, is an educational network ofNew Horizon College & KathmanduModel College affiliated to PokharaUniversity.  </p>
 									</div>
 									<ul class="footer-link">
-										<li><i class="zmdi zmdi-pin"></i>California Street san Francisco, CA</li>
-										<li><i class="fa fa-phone"></i>Phone : +660 256 24857 </li>
-										<li><i class="fa fa-envelope"></i>Email : username@email.com,</li>
+										<li><i class="zmdi zmdi-pin"></i>Omstiyaa Rural Municipality-1,Rupandehi</li>
+										<li><i class="fa fa-phone"></i>Phone : 017-429193,429192 </li>
+										<li><i class="fa fa-envelope"></i>Email : bumocol@gmail.com</li>
 									</ul>
 								</div>
 							</div>
@@ -180,7 +197,19 @@
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact Us</a></li>
 										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<?php
+										include("./admin/content/php/viewlink.php");
+
+										if(count($alllink) > 0) {
+											$counter = 1;
+											$alllink = array_reverse($alllink);
+											foreach($alllink as $item) {
+												?>
+													<li><a target="_blank" href="<?php echo $item['link'] ?>"><?php echo $item['title'] ?></a></li>
+												<?php
+											}
+										}
+										?>
 									</ul>
 								</div>
 							</div>
@@ -188,10 +217,10 @@
 								<div class="footer-wrapper mb-30">
 									<h2 class="footer-title">Courses</h2>
 									<ul class="footer-menu">
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
+										<li><a href="BBM.php">Bachelor in Business Administration</a></li>
+										<li><a href="bhm.php">Bachelor in Hotel Manangement</a></li>
+										<li><a href="mpgd.php">Master in Population ,Gender and Development</a></li>
+										
 									</ul>
 								</div>
 							</div>
@@ -216,7 +245,7 @@
 					<div class="row">
 						<div class="col-md-6 col-12">
 							<div class="copyright">
-								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">NGodSon</a></p>
+								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">Bee Advertisment</a></p>
 							</div>
 						</div>
 					</div>
@@ -224,7 +253,6 @@
 			</div>
 			<!-- footer-bottom-area-end -->
 		</footer>
-		
 		
 		 <!-- ::::::::::::::All JS Files here :::::::::::::: -->
 		 <!-- Global Vendor JS -->

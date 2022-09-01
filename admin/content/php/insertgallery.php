@@ -11,15 +11,21 @@
         //IMAGE
         $file = $_FILES['gallery'];
         $filename = $_FILES['gallery']['name'];
+        $filetype = $_FILES['gallery']['type'];
         $filetempname = $_FILES['gallery']['tmp_name'];
         $filenewname = uniqid(true).$filename;
+
+        $typemark = "image";
+        if(strstr($filetype, "video/")) {
+            $typemark = "video";
+        }
 
         $filedestination = "./assets/img/gallery/" . $filenewname;
 
         $fileUploadResult = $obj->UploadFile($filenewname,$filetempname,$filedestination); // UPLOADING FILE
 
         if($fileUploadResult == 1) {
-            $array = array('title' => $title, 'remark' => $remark, 'image' => $filenewname);
+            $array = array('title' => $title, 'remark' => $remark, 'image' => $filenewname, 'mark' => $typemark);
             $result2 = $obj->InsertData('gallery',$array); // SENDING DYNAMIC PARAMETERS
           
             if($result2 == 1) { //CONCLUDING THE RESULT

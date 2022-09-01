@@ -58,15 +58,10 @@
                                             </div>
                                         </div>
                                         
-                                        <td id="messagesmoment<?php echo $item['uid'] ?>">
+                                        <td>
                                             <?php echo $item['inserted']; ?>
                                         </td>
                                         <!-- SCRIPT FOR MOMENT JS -->
-                                        <script>
-                                            document.querySelector('#messagesmoment<?php echo $item['uid'] ?>')
-                                            .innerText = moment(document.querySelector('#messagesmoment<?php echo $item['uid'] ?>')
-                                            .innerText).fromNow();
-                                        </script>
 
                                         <td><button data-toggle="modal" data-target="#deletemessages<?php echo $item['uid']; ?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button></td>
                                         <!-- MODAL -->

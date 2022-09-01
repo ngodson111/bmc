@@ -1079,7 +1079,7 @@ Extra class
   z-index: 1;
 }
 .bg-opacity::before {
-  background: #0c314e;
+  background: #0c314e80;
   content: "";
   height: 100%;
   left: 0;
@@ -1720,7 +1720,7 @@ Extra class
 }
 .campus {
   border-radius: 4px;
-  box-shadow: 0 9px 38px 0 rgba(188, 184, 184, 0.24);
+  /* box-shadow: 0 9px 38px 0 rgba(188, 184, 184, 0.24); */
   overflow: hidden;
 }
 .campus-video-wrapper {
@@ -1730,7 +1730,7 @@ Extra class
 }
 .campus-video-wrapper::before {
   position: absolute;
-  background: #016afb;
+  background: #0169fb8f;
   content: "";
   height: 100%;
   width: 100%;
@@ -1770,7 +1770,7 @@ Extra class
 }
 .tab-wrapper {
   background: #fff;
-  box-shadow: 0 0 38px 0 rgba(188, 184, 184, 0.24);
+  /* box-shadow: 0 0 38px 0 rgba(188, 184, 184, 0.24); */
   overflow: hidden;
   padding: 96px 80px 72px 70px;
 }

@@ -13,6 +13,8 @@
             include("./components/pages/page7.php"); 
             include("./components/pages/page8.php"); 
             include("./components/pages/page9.php"); 
+            include("./components/pages/page10.php"); 
+            include("./components/pages/page11.php"); 
         ?>
     </div>
 </div>

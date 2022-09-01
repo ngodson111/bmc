@@ -21,7 +21,7 @@
                         <th>S.No</th>
                         <th>Title</th>
                         <th>Remark</th>
-                        <th>Image</th>
+                        <th>File</th>
                         <th>Time</th>
                         <th>Action</th>
                     </tr>
@@ -65,9 +65,39 @@
 
                                         <td>
                                             <div class="img" style="width:50px;height:50px;border-radius:9px">
-                                                <img src="./assets/img/gallery/<?php echo $item['image']; ?>" alt=""
-                                                    style="width:100%;height:100%;object-fit:cover;"
-                                                />
+                                                <?php
+                                                    if($item['mark'] === "video") {
+                                                        ?>
+                                                            <button data-toggle="modal" data-target="#viewVideo<?php echo $item['uid'] ?>" class="btn btn-sm btn-success">Video</button>
+                                                            <!-- View MODAL -->
+                                                            <div class="modal fade viewVideo" id="viewVideo<?php echo $item['uid'] ?>" tabindex="1" role="dialog" aria-hidden="true">
+                                                                <div class="modal-dialog" role="document">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <p class="text-right m-0" style="font-size:20px;font-weight:600;">
+                                                                                Edit Gallery Details
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <video 
+                                                                                src="./assets/img/gallery/<?php echo $item['image']; ?>"
+                                                                                style="width:100%;height:100%;object-fit:cover;"  
+                                                                                controls  
+                                                                            >
+                                                                            </video>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        <?php
+                                                    }else {
+                                                        ?>
+                                                            <img src="./assets/img/gallery/<?php echo $item['image']; ?>" alt=""
+                                                                style="width:100%;height:100%;object-fit:cover;"
+                                                            />
+                                                        <?php
+                                                    }
+                                                ?>
                                             </div>
                                         </td>
                                         <td id="gallerymoment<?php echo $item['uid'] ?>">

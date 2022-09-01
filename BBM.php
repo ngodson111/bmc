@@ -1,3 +1,7 @@
+<?php
+	include "./admin/php/connect.php";
+	include "./admin/content/php/mainendpoint.php";
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
     
@@ -47,8 +51,8 @@
 						<div class="col-auto">
 							<div class="header-left-wrapper">
 								<ul class="header-top-text d-flex flex-column flex-md-row justify-content-center">
-									<li>E-mail Address : tutoring@mail.com</li>
-									<li>Contact Number : +003457289</li>
+									<li>E-mail Address :  bumocol@gmail.com</li>
+									<li>Contact Number : 017-429193,429192</li>
 								</ul>
 							</div>
 						</div>
@@ -76,11 +80,28 @@
 								<nav>
 									<ul>
 										<li><a href="index.php">Home</a></li>                                                         
-										<li class="active"><a href="courses.php">Courses</a></li>
-										<li><a href="event.php">Event</a></li>
-										<li><a href="notice.php">Notice</a></li>
-										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<li class="active">
+											<a href="courses.php">Courses</a>
+											<ul class="sub-menu text-left">
+												<li><a href="bbm.php">BBA</a></li>
+												<li><a href="bhm.php">BHM</a></li>
+												<li><a href="mpgd.php">MPGD</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="notice.php">Events & Notices</a>
+											<ul class="sub-menu text-left">
+												<li><a href="notice.php">Notice</a></li>
+												<li><a href="event.php">Event</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.php">Gallery</a>
+											<ul class="sub-menu text-left">
+												<li><a href="gallery.php">Images</a></li>
+												<li><a href="video.php">Videos</a></li>
+											</ul>
+										</li>
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact</a></li>
 									</ul>
@@ -111,7 +132,7 @@
 			<div class="container">
 				<div class="row justify-content-center">
 					
-					<div class="col-lg-9">
+					<div class="col-lg-12">
 						<div class="course-details-wrapper mb-30">
 							<div class="course-details-content">
 								<div class="course-details-img">
@@ -162,72 +183,101 @@
 							<h4>Admission Procedure</h4>
 							<p>Entry requirement for a new student in BBA  program will be 10+2 orequivalent from any discipline. An entrance examination will be helId for allapplicants to be selected for admission. A notice applications for admission ispublicly announced. Applications are scrutinized and the eligible candidatehas to attend entrance examination on the designated date and venue. Awritten examination followed by an interview will be arranged for selection ofstudents.A combined score of entrance examination, interview and academicrecords will be derived for result and merit list of admission.</p>
 							<div class="frequently-asked-area pt-130">
-			<div class="container frequently">
-				<div class="row g-0 align-items-stretch">
-					<div class="col-lg-6">
-						<div class="frequently-asked-wrapper gray-bg-1">
-							<h3 class="frequently-title">Frequantly asked quastions</h3>
-							<div class="accordion" id="faq-accordian">
-								<div class="accordion-item">
-								  <h2 class="accordion-header">
-									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
-									</button>
-								  </h2>
-								  <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+								<div class="container frequently">
+									<div class="row justify-content-center m-0 p-0">
+										<div class="col-lg-8 p-0">
+											<div class="frequently-asked-wrapper gray-bg-1">
+												<h3 class="frequently-title">Curricular Structure</h3>
+												<div class="accordion" id="faq-accordian">
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
+															Year I
+														</button>
+													</h2>
+													<div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+															<table class="table table-sm">
+																<thead>
+																	<tr>
+																		<th>Module Code</th>
+																		<th>Module Title</th>
+																		<th>Trimester</th>
+																		<th>Credit</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>M1N627146</td>
+																		<td>Enterprising Behaviours for the Business Professional</td>
+																		<td>A</td>
+																		<td>20</td>
+																	</tr>
+																	<tr>
+																		<td>M1N627146</td>
+																		<td>Enterprising Behaviours for the Business Professional</td>
+																		<td>A</td>
+																		<td>20</td>
+																	</tr>
+																	<tr>
+																		<td>M1N627146</td>
+																		<td>Enterprising Behaviours for the Business Professional</td>
+																		<td>A</td>
+																		<td>20</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													</div>
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
+															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+														</button>
+													</h2>
+													<div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														</div>
+													</div>
+													</div>
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
+															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+														</button>
+													</h2>
+													<div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														</div>
+													</div>
+													</div>
+													<div class="accordion-item">
+													<h2 class="accordion-header">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+															Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
+														</button>
+													</h2>
+													<div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
+														<div class="accordion-body">
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
+														</div>
+													</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 p-0">
+											<div class="frequently-image">
+												<img src="assets/img/about/2.jpg" alt="">
+											</div>
+										</div>
 									</div>
-								  </div>
-								</div>
-								<div class="accordion-item">
-								  <h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
-									</button>
-								  </h2>
-								  <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
-									</div>
-								  </div>
-								</div>
-								<div class="accordion-item">
-								  <h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
-									</button>
-								  </h2>
-								  <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
-									</div>
-								  </div>
-								</div>
-								<div class="accordion-item">
-								  <h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
-										Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod ?.
-									</button>
-								  </h2>
-								  <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faq-accordian">
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmempor incididunt ut labore et dolore magna aliqua. sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunlabore et dolore magna aliqua. Utenim ad minim veniam, quis nostrudexercitanulla pariatur.</p>
-									</div>
-								  </div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="frequently-image">
-							<img src="assets/img/about/2.jpg" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<br>
+							<br>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore maaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodconsequat.iirureprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste </p> -->
 							<button type="button" class="register-now-button" data-bs-toggle="modal" data-bs-target="#myModal">
 							  apply now
@@ -246,14 +296,14 @@
 						<div class="row">
 							<div class="col-lg-3 col-md-6 col-12">
 								<div class="footer-wrapper mb-30">
-									<h2 class="footer-title">About Poralikha</h2>
+									<h2 class="footer-title">About Butwal Model College(BMC)</h2>
 									<div class="footer-content">
-										<p>Lorem ipsum dolor sit cnr adipisicing elit, sed do eiusmod tempor incididuntlabore et dolore magna aliqua. </p>
+										<p>Butwal Model College, a co-educationalinstitution, is an educational network ofNew Horizon College & KathmanduModel College affiliated to PokharaUniversity.  </p>
 									</div>
 									<ul class="footer-link">
-										<li><i class="zmdi zmdi-pin"></i>California Street san Francisco, CA</li>
-										<li><i class="fa fa-phone"></i>Phone : +660 256 24857 </li>
-										<li><i class="fa fa-envelope"></i>Email : username@email.com,</li>
+										<li><i class="zmdi zmdi-pin"></i>Omstiyaa Rural Municipality-1,Rupandehi</li>
+										<li><i class="fa fa-phone"></i>Phone : 017-429193,429192 </li>
+										<li><i class="fa fa-envelope"></i>Email : bumocol@gmail.com</li>
 									</ul>
 								</div>
 							</div>
@@ -265,7 +315,19 @@
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact Us</a></li>
 										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<?php
+										include("./admin/content/php/viewlink.php");
+
+										if(count($alllink) > 0) {
+											$counter = 1;
+											$alllink = array_reverse($alllink);
+											foreach($alllink as $item) {
+												?>
+													<li><a target="_blank" href="<?php echo $item['link'] ?>"><?php echo $item['title'] ?></a></li>
+												<?php
+											}
+										}
+										?>
 									</ul>
 								</div>
 							</div>
@@ -273,10 +335,10 @@
 								<div class="footer-wrapper mb-30">
 									<h2 class="footer-title">Courses</h2>
 									<ul class="footer-menu">
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
-										<li><a href="BBM.php">Bachelor in Business Manangement</a></li>
+										<li><a href="BBM.php">Bachelor in Business Administration</a></li>
+										<li><a href="bhm.php">Bachelor in Hotel Manangement</a></li>
+										<li><a href="mpgd.php">Master in Population ,Gender and Development</a></li>
+										
 									</ul>
 								</div>
 							</div>
@@ -301,7 +363,7 @@
 					<div class="row">
 						<div class="col-md-6 col-12">
 							<div class="copyright">
-								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">NGodSon</a></p>
+								<p><i class="fa fa-copyright"></i>Copyright, 2022 <a href="#">Bee Advertisment</a></p>
 							</div>
 						</div>
 					</div>
@@ -309,7 +371,6 @@
 			</div>
 			<!-- footer-bottom-area-end -->
 		</footer>
-		
 
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1">
@@ -340,6 +401,8 @@
 								<div class="col-md-6">
 									<select name="program" required>
 										<option value="BHM">BHM</option>
+										<option value="BBM">BBM</option>
+										<option value="MPGD">MPGD</option>
 									</select>
 								</div>
 								<div class="col-12">

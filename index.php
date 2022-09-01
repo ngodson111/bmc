@@ -80,24 +80,29 @@
 							<div class="main-menu text-center">
 								<nav>
 									<ul>
-										<li class="active"><a href="index.php">Home</a>
-									</li>                                                         
-										<li><a href="courses.php">Courses</a>
-										<ul class="sub-menu text-left">
+										<li class="active"><a href="index.php">Home</a></li>                                                         
+										<li>
+											<a href="courses.php">Courses</a>
+											<ul class="sub-menu text-left">
 												<li><a href="bbm.php">BBA</a></li>
 												<li><a href="bhm.php">BHM</a></li>
 												<li><a href="mpgd.php">MPGD</a></li>
-											</ul></li>
-										<li><a href="event.php">Event</a></li>
-										<li><a href="notice.php">News & Notices</a>
-										<ul class="sub-menu text-left">
-										<li><a href="#">News</a></li>
-												<li><a href="#">Notices</a></li>
-												
-												
-											</ul></li>
-										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+											</ul>
+										</li>
+										<li>
+											<a href="notice.php">Events & Notices</a>
+											<ul class="sub-menu text-left">
+												<li><a href="notice.php">Notice</a></li>
+												<li><a href="event.php">Event</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.php">Gallery</a>
+											<ul class="sub-menu text-left">
+												<li><a href="gallery.php">Images</a></li>
+												<li><a href="video.php">Videos</a></li>
+											</ul>
+										</li>
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact</a></li>
 									</ul>
@@ -149,7 +154,10 @@
 				<div class="inner-campus">
 					<div class="campus">
 						<div class="row">					
-							<div class="col-lg-6 col-12 p-0">
+							<div class="col-lg-4 col-12 p-0">
+								<div class="campus-boardmember-image" style="display: none;">
+									<img width="100%" height="500px" style="object-fit: cover;" src="./assets/img/instructor/principal.jpg" alt="">
+								</div>
 								<div class="campus-video-wrapper ptb-180" style="background-image:url(assets/img/campus/1.jpg)" >
 									<div class="campus-text text-center">
 										<div class="campus-icon">
@@ -159,24 +167,24 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6 col-12 p-0">
+							<div class="col-lg-8 col-12 p-0">
 								<div class="tab-wrapper">
 									<div>
 									<!-- Nav tabs -->
 									<ul class="campus-tab nav">
 										<li class="nav-item">
-											<button class="nav-link active" data-bs-target="#home" data-bs-toggle="tab">
-												<h4>about us</h4>
+											<button class="nav-link active" data-bs-target="#home" data-bs-toggle="tab" >
+												<h4 onclick="handlePrincipalMessage(false)">about us</h4>
 											</button>
 										</li>
 										<li class="nav-item">
 											<button class="nav-link" data-bs-target="#profile" data-bs-toggle="tab">
-												<h4>mission</h4>
+												<h4 onclick="handlePrincipalMessage(false)">mission</h4>
 											</button>
 										</li>
 										<li class="nav-item">
 											<button class="nav-link" data-bs-target="#messages" data-bs-toggle="tab">
-												<h4>Messgae From Principal</h4>
+												<h4 onclick="handlePrincipalMessage(true)">Messgae From Principal</h4>
 											</button>
 										</li>
 										
@@ -205,15 +213,8 @@
 										<div role="tabpanel" class="tab-pane" id="messages">
 											<div class="campus-wrapper">
 												<div class="campus-content">
-													<p>The college is deeply dedicated and committed to develop competence, conscience, compassion and commitment in the personal qualities of the students. It always promotes academically solid, socially relevant and value oriented education in the country.</p>
-													<p>Honesty in work. </p>
-													<p>Sincerity in relationships. </p>
-													<p>Respect for self and others. </p>
-													<p>Responsibility for one’s actions.</p>
-													<p>Reflecting on and learning from our experience.</p>
-													<p>Care for resources. </p>
-													<p>Respect for laws and regulations.</p>
-													<a href="#">read more</a>
+													<p>It is a privilege on my part to drop a few words of thanks to all of our Board members, guardians and ex-students for their sincere effort and timely suggestions to boost this institution reach to this extend. I am especially thankful to all the associates of this institution who worked hand in hand together to provide it a present day look.Yet, a lot has to be done to actualize the dream of New Horizon.Even,it was impossible without the great initiation of our parents, our diligent students and dedicated teaching and non-teaching staff as well as the kind assistance of the management executives, who extended their helping hands to destine</p>
+													<!-- <a href="#">read more</a> -->
 												</div>
 											</div>
 										</div>
@@ -237,45 +238,45 @@
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="courses-wrapper mb-30">
 							<div class="courses-img">
-								<a href="BBM.php"><img src="assets/img/courses/1.jpg" alt="" />
+								<a href="bbm.php"><img src="assets/img/courses/1.jpg" alt="" />
 									<span>Management</span>
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="BBM.php">Bachelor in Business Manangement (BBS)</a></h4>
+								<h4><a href="bbm.php">Bachelor in Business Manangement (BBS)</a></h4>
 								<p>The BBA is a four-year undergraduate program delivered by Butwal Model College</p>
-								<a href="BBM.php">apply now</a>
-								<a href="BBM.php">learn more</a>
+								<!-- <a href="bbm.php">apply now</a> -->
+								<a href="bbm.php">learn more</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="courses-wrapper mb-30">
 							<div class="courses-img">
-								<a href="BBM.php"><img src="assets/img/courses/1.jpg" alt="" />
+								<a href="bhm.php"><img src="assets/img/courses/1.jpg" alt="" />
 									<span>Management</span>
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="BBM.php">Bachelor in Hotel Manangement (BHM)</a></h4>
+								<h4><a href="bhm.php">Bachelor in Hotel Manangement (BHM)</a></h4>
 								<p>The BHM is a four-year undergraduate program delivered by Butwal Model College</p>
-								<a href="BBM.php">apply now</a>
-								<a href="BBM.php">learn more</a>
+								<!-- <a href="BBM.php">apply now</a> -->
+								<a href="bhm.php">learn more</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-12">
 						<div class="courses-wrapper mb-30">
 							<div class="courses-img">
-								<a href="BBM.php"><img src="assets/img/courses/1.jpg" alt="" />
+								<a href="mpgd.php"><img src="assets/img/courses/1.jpg" alt="" />
 									<span>Master</span>
 								</a>
 							</div>
 							<div class="courses-content">
-								<h4><a href="BBM.php">Master in Population Gender and Development (MPGD)</a></h4>
+								<h4><a href="mpgd.php">Master in Population Gender and Development (MPGD)</a></h4>
 								<p>Lorem ipsum dolor sit adipisicing elit, eiusmod tempor incididunt ut aliqua.</p>
-								<a href="BBM.php">apply now</a>
-								<a href="BBM.php">learn more</a>
+								<!-- <a href="BBM.php">apply now</a> -->
+								<a href="mpgd.php">learn more</a>
 							</div>
 						</div>
 					</div>
@@ -463,7 +464,19 @@
 										<li><a href="about.php">About</a></li>
 										<li><a href="contact.php">Contact Us</a></li>
 										<li><a href="gallery.php">Gallery</a></li>
-										<!-- <li><a href="council.php">Council</a></li> -->
+										<?php
+										include("./admin/content/php/viewlink.php");
+
+										if(count($alllink) > 0) {
+											$counter = 1;
+											$alllink = array_reverse($alllink);
+											foreach($alllink as $item) {
+												?>
+													<li><a target="_blank" href="<?php echo $item['link'] ?>"><?php echo $item['title'] ?></a></li>
+												<?php
+											}
+										}
+										?>
 									</ul>
 								</div>
 							</div>
@@ -533,6 +546,22 @@
 
 		<!-- Main JS -->
         <script src="assets/js/main.js"></script>
+
+		<script>
+			function handlePrincipalMessage(toggler) {
+				console.log(toggler);
+				const Principal = document.querySelector(".campus-boardmember-image");
+				const Video = document.querySelector(".campus-video-wrapper");
+
+				if(toggler) {
+					Principal.style.display = "block";
+					Video.style.display = "none";
+				}else {
+					Principal.style.display = "none";
+					Video.style.display = "block";
+				}
+			}
+		</script>
 
 		<?php
 			if(count($allcontacts) > 0 && $allcontacts[0]['admission'] !== "No") {
